@@ -67,6 +67,7 @@ h2{
     line-height: .3;
 }
 
+/* styling for survey page */
 #surveyBody {
     background-image: url(../images/arcadebg.jpg);
     background-size: 100%;
@@ -74,3 +75,13 @@ h2{
     color: whitesmoke;
 }
 
+/* footer styling */
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0px;
+    clear: both;
+    font-size: 18px;
+}

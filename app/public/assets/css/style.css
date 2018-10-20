@@ -2,8 +2,9 @@
     font-family: strangerfont;
     src: url(stranger\ things/strangerfont.ttf);
 }
+
 /* Styling for home page */
-.homeContainer{
+.homeContainer {
     width: 100%;
     margin-top: 180px;
 }
@@ -46,24 +47,24 @@
 }
 
 
-a:hover{
+a:hover {
     text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-color: red;
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    color: red;
 }
 
 .title {
     font-size: 90px;
 }
 
-h2{
- font-size: 40px;
+h2 {
+    font-size: 40px;
 }
 
-#topLine{
+#topLine {
     line-height: .3;
 }
 
@@ -77,11 +78,19 @@ h2{
 
 /* footer styling */
 footer {
-    position: relative;
-    left: 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 0px;
-    clear: both;
-    font-size: 18px;
+}
+
+.spanLeft {
+    width: 100%;
+    text-align: left;
+    color: whitesmoke
+}
+
+.spanRight {
+    width: 100%;
+    text-align: right;
+    color: whitesmoke
 }

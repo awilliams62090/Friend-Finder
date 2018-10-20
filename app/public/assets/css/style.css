@@ -1,0 +1,76 @@
+@font-face {
+    font-family: strangerfont;
+    src: url(stranger\ things/strangerfont.ttf);
+}
+/* Styling for home page */
+.homeContainer{
+    width: 100%;
+    margin-top: 180px;
+}
+
+#homeBody {
+    background-image: url(../images/homebg.jpg);
+    font-family: 'Titillium Web', sans-serif;
+    background-size: 100%;
+    color: whitesmoke;
+}
+
+#strangeTitle {
+    font-family: strangerfont;
+    text-shadow:
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red;
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+.upsideDown {
+    text-shadow:
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    /* flips text upside down */
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    /* position: absolute; */
+}
+
+
+a:hover{
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+color: red;
+}
+
+.title {
+    font-size: 90px;
+}
+
+h2{
+ font-size: 40px;
+}
+
+#topLine{
+    line-height: .3;
+}
+
+#surveyBody {
+    background-image: url(../images/arcadebg.jpg);
+    background-size: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    color: whitesmoke;
+}
+

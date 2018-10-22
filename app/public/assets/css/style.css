@@ -144,7 +144,9 @@ option:hover {
 }
 
 .modal-body{
+    background-color: #141b26;
     background-image: url(../images/upsidedown.gif);
+    background-repeat: no-repeat;
 }
 
 /* footer styling */
@@ -167,5 +169,6 @@ footer {
 
 .spanRight {
     float: right;
+    margin-right: 10px;
     color: whitesmoke
 }

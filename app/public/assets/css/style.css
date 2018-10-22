@@ -16,7 +16,10 @@
     color: whitesmoke;
 }
 
-#strangeTitle {
+#strangeTitle,
+#formName,
+#strangeSurvey,
+.upsideDown {
     font-family: strangerfont;
     text-shadow:
         -1px -1px 0 red,
@@ -43,7 +46,7 @@
     -ms-transform: rotate(-180deg);
     -o-transform: rotate(-180deg);
     transform: rotate(-180deg);
-    /* position: absolute; */
+
 }
 
 
@@ -76,6 +79,74 @@ h2 {
     color: whitesmoke;
 }
 
+#strangeSurvey {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#formName {
+    font-size: 25px;
+}
+
+#topLine2 {
+    line-height: .3;
+}
+
+hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: red;
+    color: red;
+}
+
+.custom-select,
+.custom-select:active,
+.custom-select:hover,
+#name,
+select:active,
+select:hover,
+option:active,
+option:hover {
+    background-color: black;
+    border-color: black;
+    outline-color: red;
+    color: whitesmoke;
+}
+
+#submit {
+    font-size: 25px;
+}
+
+/* Styling for Modal */
+#friendsModal {
+    font-family: strangerfont;
+    text-shadow:
+        -1px -1px 0 red,
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red;
+    color: black;
+}
+
+#userName {
+    font-size: 30px;
+}
+
+#matchName {
+    text-align: center;
+}
+
+.modal-content {
+    justify-content: center;
+    background-color: #141b26;
+}
+
+.modal-body{
+    background-image: url(../images/upsidedown.gif);
+}
+
 /* footer styling */
 footer {
     position: fixed;
@@ -83,14 +154,18 @@ footer {
     width: 100%;
 }
 
-.spanLeft {
+#surveyFooter {
+    position: relative;
+    bottom: 0;
     width: 100%;
-    text-align: left;
+}
+
+.spanLeft {
+    float: left;
     color: whitesmoke
 }
 
 .spanRight {
-    width: 100%;
-    text-align: right;
+    float: right;
     color: whitesmoke
 }

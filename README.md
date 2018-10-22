@@ -15,5 +15,5 @@
 
 ### This app was deployed on Heroku, as I have created my own api of characters. I hope you enjoy!
 
-[Console.table npm](https://www.npmjs.com/package/console.table)
+[Heroku App!](https://whispering-fjord-88520.herokuapp.com/)
 
